@@ -1,7 +1,7 @@
 # sfdv
 
 ## GCF
-[![kb-api](https://img.shields.io/badge/xl--api-location--analytics-orange)](http://www.x-locations.com)  [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 This should enable developer to write reusable pipelines/functions.
 The usecase in focus for this repo is for developing RESTful API.
