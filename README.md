@@ -17,7 +17,7 @@ References :
 
 * Install the SLS framework 
 * For Google Cloud function use the following substeps.
- * `sls create --template google-python --path xlapi-someFunctionalityName`
+ * `sls create --template google-python --path kbapi-someFunctionalityName`
  * Navigate the the created folder > cd kbapi-someFunctionalityName
  * Edit the `serverless.yml` as below
 ```yml
