@@ -18,10 +18,10 @@ References :
 * Install the SLS framework 
 * For Google Cloud function use the following substeps.
  * `sls create --template google-python --path xlapi-someFunctionalityName`
- * Navigate the the created folder > cd xlapi-someFunctionalityName
+ * Navigate the the created folder > cd kbapi-someFunctionalityName
  * Edit the `serverless.yml` as below
 ```yml
-service: xlapi-someFunctionalityName
+service: kbapi-someFunctionalityName
 
 provider:
   name: google
@@ -73,11 +73,11 @@ In case you are using Google cloud's native method to deploy a function in that 
 3. Deploy using the below command 
 ```
 gcloud functions deploy 
---source https://source.developers.google.com/projects/xl-insight-app/repos/github_x-locations_cloud_5Ffunctions/moveable-aliases/develop/paths/xlapi_someFunctionalityName xlapi-someFunctionalityName 
+--source <your-source-repo-link> 
 --entry-point main 
 --runtime python37 
 --trigger-http 
 --memory=2GB 
 --timeout=540s 
---project xl-insight-app
+--project <your-cloud-project-id>
 ```
